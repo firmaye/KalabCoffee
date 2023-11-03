@@ -1,14 +1,14 @@
-const ShoeCard = ({ imgURL, changeBigShoeImage, bigShoeImg }) => {
+const CoffeeCard = ({ imgURL, changeBigCoffeeImage, bigCoffeeImg }) => {
   const handleClick = () => {
-    if (bigShoeImg !== imgURL.bigShoe) {
-      changeBigShoeImage(imgURL.bigShoe);
+    if (bigCoffeeImg !== imgURL.bigCoffee) {
+      changeBigCoffeeImage(imgURL.bigCoffee);
     }
   };
 
   return (
     <div
       className={`border-2 rounded-xl ${
-        bigShoeImg === imgURL.bigShoe
+        bigCoffeeImg === imgURL.bigCoffee
           ? "border-coral-red"
           : "border-transparent"
       } cursor-pointer max-sm:flex-1`}
@@ -16,8 +16,8 @@ const ShoeCard = ({ imgURL, changeBigShoeImage, bigShoeImg }) => {
     >
       <div className="flex justify-center items-center  bg-center bg-cover sm:w-40 sm:h-40 rounded-xl max-sm:p-4 bg-hero ">
         <img
-          src={imgURL.bigShoe}
-          alt="shoe colletion"
+          src={imgURL.bigCoffee}
+          alt="coffee collection"
           width={127}
           height={103.34}
           className="object-contain"
@@ -27,4 +27,4 @@ const ShoeCard = ({ imgURL, changeBigShoeImage, bigShoeImg }) => {
   );
 };
 
-export default ShoeCard;
+export default CoffeeCard;

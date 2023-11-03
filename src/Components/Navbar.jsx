@@ -16,12 +16,12 @@ const Navbar = () => {
             className="m-0 w-[90px] h-[60px]"
           />
         </a>
-        <ul className="flex-1 flex justify-end items-center gap-16 max-lg:hidden">
+        <ul className="flex-1 flex justify-end items-center gap-16 max-lg:hidden pr-20">
           {navLinks.map((item) => (
             <li key={item.label}>
               <a
                 href={item.href}
-                className="font-montserrat leading-normal text-lg text-red-100 font-bold"
+                className="font-montserrat leading-normal text-lg text-amber-600 font-bold"
               >
                 {item.label}
               </a>

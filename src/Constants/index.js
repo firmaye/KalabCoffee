@@ -10,15 +10,17 @@ import {
   co1,
   co2,
   co3,
+  buna1,
+  buna2,
+  buna3,
+  buna4,
+  buna5,
+  buna6,
   coffee1,
   coffee2,
   coffee3,
   customer1,
   customer2,
-  shoe4,
-  shoe5,
-  shoe6,
-  shoe7,
 } from "../assets/images";
 
 export const navLinks = [
@@ -31,15 +33,15 @@ export const navLinks = [
 export const coffees = [
   {
     thumbnail: coffee1,
-    bigShoe: co1,
+    bigCoffee: co1,
   },
   {
     thumbnail: coffee2,
-    bigShoe: co2,
+    bigCoffee: co2,
   },
   {
     thumbnail: coffee3,
-    bigShoe: co3,
+    bigCoffee: co3,
   },
 ];
 
@@ -51,24 +53,40 @@ export const statistics = [
 
 export const products = [
   {
-    imgURL: shoe4,
-    name: "Nike Air Jordan-01",
-    price: "$200.20",
+    imgURL: buna1,
+    name: "Milk Coffee",
+    price: "$20.20",
+    rating: "(5.0)",
   },
   {
-    imgURL: shoe5,
-    name: "Nike Air Jordan-10",
-    price: "$210.20",
+    imgURL: buna6,
+    name: "Sandwitch with Coffee",
+    price: "$10.20",
+    rating: "(4.9)",
   },
   {
-    imgURL: shoe6,
-    name: "Nike Air Jordan-100",
-    price: "$220.20",
+    imgURL: buna3,
+    name: "Take away coffee",
+    price: "$22.20",
+    rating: "(5.0)",
   },
   {
-    imgURL: shoe7,
-    name: "Nike Air Jordan-001",
-    price: "$230.20",
+    imgURL: buna4,
+    name: "Ice Coffee",
+    price: "$23.20",
+    rating: "(5.5)",
+  },
+  {
+    imgURL: buna2,
+    name: "Chocolate Coffee",
+    price: "$10.20",
+    rating: "(5.5)",
+  },
+  {
+    imgURL: buna5,
+    name: "Sandwitch with Coffee",
+    price: "$33.20",
+    rating: "(5.0)",
   },
 ];
 
