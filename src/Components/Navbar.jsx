@@ -21,7 +21,7 @@ const Navbar = () => {
             <li key={item.label}>
               <a
                 href={item.href}
-                className="font-montserrat leading-normal text-lg text-amber-600 font-bold"
+                className="font-montserrat leading-normal text-lg text-red-400 font-bold"
               >
                 {item.label}
               </a>
