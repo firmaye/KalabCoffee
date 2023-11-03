@@ -2,7 +2,7 @@ import React from "react";
 import { star } from "../assets/icons";
 const PopularProductCard = (props) => {
   return (
-    <div className="flex flex-1 flex-col w-full max-sm:w-full">
+    <div className="flex flex-1 flex-col w-full max-sm:w-full ">
       <img
         src={props.imgURL}
         alt={props.name}

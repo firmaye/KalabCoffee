@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../Components/Button";
-
+import { arrowRight } from "../assets/icons";
 import { useState } from "react";
 
 import { coffees, statistics } from "../constants";
@@ -36,7 +36,7 @@ const Hero = () => {
           of our vibrant community.
         </p>
 
-        <Button label="Visit Now" />
+        <Button label="Visit Now" iconURL={arrowRight} />
 
         <div className="flex justify-start items-start flex-wrap w-full mt-20 gap-16">
           {statistics.map((stat, index) => (
