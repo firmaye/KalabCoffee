@@ -93,8 +93,9 @@ export const products = [
 export const services = [
   {
     imgURL: truckFast,
-    label: "Free shipping",
-    subtext: "Enjoy seamless shopping with our complimentary shipping service.",
+    label: "Free Delivery Service",
+    subtext:
+      "Sit back, relax, and let us handle the delivery while you indulge in the perfect cup of coffee.",
   },
   {
     imgURL: shieldTick,
@@ -105,7 +106,8 @@ export const services = [
   {
     imgURL: support,
     label: "Love to help you",
-    subtext: "Our dedicated team is here to assist you every step of the way.",
+    subtext:
+      "Our dedicated team of experienced roasters carefully selects and roasts each batch to perfection, ensuring that every sip is a moment of pure delight.",
   },
 ];
 
