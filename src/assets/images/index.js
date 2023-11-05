@@ -14,8 +14,8 @@ import buna4 from "./buna4.jpg";
 import buna5 from "./buna5.jpg";
 import buna6 from "./buna6.jpg";
 
-import customer1 from "./customer1.jpeg";
-import customer2 from "./customer2.svg";
+import customer1 from "./customer1.png";
+import customer2 from "./customer2.jpg";
 
 import footerLogo from "./footer-logo.svg";
 import headerLogo from "./header-logo.svg";

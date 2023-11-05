@@ -117,14 +117,21 @@ export const reviews = [
     customerName: "Morich Brown",
     rating: 4.5,
     feedback:
-      "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!",
+      "I absolutely love the cozy atmosphere and incredible coffee at Kalab Coffee!I highly recommend Kalab Coffee for anyone seeking a memorable coffee experience.",
   },
   {
     imgURL: customer2,
     customerName: "Lota Mongeskar",
     rating: 4.5,
     feedback:
-      "The product not only met but exceeded my expectations. I'll definitely be a returning customer!",
+      "If you're looking for a coffee house that goes above and beyond, Kalab Coffee is the place to be.Trust me, once you've experienced Kalab Coffee, you'll keep coming back for more.",
+  },
+  {
+    imgURL: customer1,
+    customerName: "Mongeskar Brown",
+    rating: 4.5,
+    feedback:
+      "What a hidden gem! Kalab Coffee is a coffee lover's paradise.The coffee is exceptional, with a smoothness and flavor that's hard to beat.Kalab Coffee has become my go-to coffee destination.",
   },
 ];
 
