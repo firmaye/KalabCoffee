@@ -3,7 +3,7 @@ import Button from "../Components/Button";
 import { arrowRight } from "../assets/icons";
 const Subscribe = () => {
   return (
-    <section className=" max-container ">
+    <section className=" max-container " id="contact-us">
       <h3 className="font-bold font-palanquin text-center text-4xl mb-10">
         <span className="text-coral-red">Contact</span> Us
       </h3>

@@ -28,13 +28,13 @@ const App = () => (
     <section className="padding">
       <SpecialOffer />
     </section>
-    <section className="padding ">
+    <section className="bg-orange-100 padding ">
       <CustomerReviews />
     </section>
-    <section className="padding">
+    <section className="padding ">
       <Subscribe />
     </section>
-    <section className="padding-x padding-t pb-8">
+    <section className=" bg-orange-950 padding-x padding-t pb-8">
       <Footer />
     </section>
   </main>
