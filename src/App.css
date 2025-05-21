@@ -32,7 +32,11 @@
     animation: logo-spin infinite 20s linear;
   }
 }
-
+@media (min-width: 1200px) {
+  .xl\:flex-row {
+    flex-direction: row;
+  }
+}
 .card {
   padding: 2em;
 }

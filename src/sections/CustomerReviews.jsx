@@ -3,7 +3,7 @@ import ReviewCard from "../Components/ReviewCard";
 import { reviews } from "../constants";
 const CustomerReviews = () => {
   return (
-    <section className="max-container">
+    <section id="customer-review" className="max-container ">
       <h3 className="font-bold font-palanquin text-center text-4xl ">
         What our <span className="text-coral-red">Customers</span> Say?
       </h3>

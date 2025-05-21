@@ -27,6 +27,7 @@ export const navLinks = [
   { href: "#home", label: "Home" },
   { href: "#about-us", label: "About Us" },
   { href: "#products", label: "Products" },
+  { href: "#customer-review", label: "Reviews" },
   { href: "#contact-us", label: "Contact Us" },
 ];
 
@@ -136,20 +137,20 @@ export const reviews = [
 
 export const footerLinks = [
   {
-    title: "Help",
+    title: "Menu",
     links: [
-      { name: "About us", link: "/" },
-      { name: "FAQs", link: "/" },
-      { name: "How it works", link: "/" },
-      { name: "Privacy policy", link: "/" },
-      { name: "Payment policy", link: "/" },
+      { name: "Home", link: "#home" },
+      { name: "About Us", link: "#about-us" },
+      { name: "Products", link: "#products" },
+      { name: "Customer Review", link: "#customer-review" },
+      { name: "Contact Us", link: "#contact-us" },
     ],
   },
   {
     title: "Get in touch",
     links: [
-      { name: "customer@nike.com", link: "mailto:customer@nike.com" },
-      { name: "+92554862354", link: "tel:+92554862354" },
+      { name: "kalabcoffe@gmail.com", link: "/" },
+      { name: "+251 987342512", link: "/" },
     ],
   },
 ];
